@@ -18,7 +18,7 @@
 #mongo {
     font-family: 'Dancing Script', cursive;
     font-size: 120px;
-    text-shadow: 0 0 4px rgb(0, 0, 0);
+    text-shadow: 0 0 2px rgb(0, 0, 0);
 }
 
 #header-line {
@@ -26,7 +26,9 @@
     position: relative;
     bottom: 18px;
     border-color: white;
-    
+    -webkit-box-shadow: 0px 4px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 11px 0px rgba(0,0,0,0.75);
 }
 
 #scraper {
@@ -66,4 +68,22 @@
     margin-bottom: 3px;
     position: relative;
     left: 4px;
+}
+
+.player-image {
+    height: 170px;
+    width: 150px;
+    
+}
+
+.card-header {
+    float: left;
+}
+
+.player-report {
+    float: left;
+}
+
+.player-summary {
+    float: left;
 }
